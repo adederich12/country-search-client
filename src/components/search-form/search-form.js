@@ -1,4 +1,5 @@
 import React from 'react';
+import './search-form.css';
 
 function ErrorDisplay(props) {
   if (!props.validation && !props.empty) {
@@ -38,7 +39,7 @@ function SearchResultItem(props) {
       </div>
       <div className="languages">
         <ul>
-          {props.data.languages.map(lang => <li>{lang.name}</li>)}
+          {props.data.languages.map(lang => <li>{lang}</li>)}
         </ul>
       </div>
     </div>

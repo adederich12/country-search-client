@@ -1,0 +1,21 @@
+.search-result-item {
+  display: flex;
+  flex-direction: row;
+}
+
+.search-result-item > img {
+  height: 100px;
+  flex-grow: 1;
+}
+
+.search-result-item > div {
+  flex-grow: 1;
+}
+
+.result-summary {
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+}
