@@ -1,3 +1,20 @@
+.country-search-form > form {
+  padding: 2em 4em;
+}
+
+.form-group {
+  width: 50%;
+  display: inline;
+}
+
+.country-search-form > form input {
+  width: 250px;
+  margin: 0em 2em;
+}
+
+.country-search-result {
+  padding: 2em 4em;
+}
 .search-result-item {
   display: flex;
   flex-direction: row;
@@ -10,12 +27,27 @@
 
 .search-result-item > div {
   flex-grow: 1;
+  padding: 1em;
+  text-align: left;
 }
 
 .result-summary {
-  width: 400px;
+  width: 600px;
   display: flex;
   flex-direction: row;
   margin-left: auto;
   margin-right: auto;
+}
+
+.result-summary ul {
+  text-align: left;
+}
+
+.country-count {
+  font-weight: bold;
+}
+
+ul .list-header {
+  font-weight: bold;
+  list-style-type: none;
 }

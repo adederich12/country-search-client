@@ -9,7 +9,7 @@ function ErrorDisplay(props) {
   const message = props.validation ? "The input provided was empty or invalid." : "There were no search results";
 
   return (
-    <div className="error-display">
+    <div className="alert alert-danger">
       {message}
     </div>
   );
@@ -141,12 +141,12 @@ class SearchForm extends React.Component {
     return (
       <div className="country-search-form">
         <ErrorDisplay validation={this.state.invalidInput} empty={this.state.emptyResult} />
+        <h4>Please enter a country code or name to search for</h4>
         <form onSubmit={this.handleSubmit}>
-          <div>
-            <label htmlFor="countrySearch">Please enter a country code or name to search for</label>
+          <div className="form-group">
             <input type="text" id="countrySearch" placeholder="Search for a country" value={this.state.value} onChange={this.handleChange} />
           </div>
-          <div>
+          <div className="form-group">
             <input type="submit" value="Search" />
           </div>
         </form>
