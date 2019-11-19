@@ -2,7 +2,10 @@
 This application is a simple front-end client that interacts with the custom built API found in this repository: https://github.com/adederich12/country-search-server. 
 
 ## Requirements
-Running this application locally will require `Node.js 10.1` or greater to be installed on your development machine. After that, you can simply clone the repository using `git clone https://github.com/adederich12/country-search-client.git` to copy the repository locally. Navigate to the newly created directory, and then run `npm install` to install the required depenedencies.
+Running this application locally will require `Node.js 10.1` or greater to be installed on your development machine.
+
+## Running Application
+After Node.js is installed, you can simply clone the repository using `git clone https://github.com/adederich12/country-search-client.git` to copy the repository locally. Navigate to the newly created directory, and then run `npm install` to install the required depenedencies.
 
 Once dependencies are installed, you may run `npm start` to initialize the development server and access the app by browsing to `localhost:3000`.
 
